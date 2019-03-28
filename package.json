@@ -1,19 +1,18 @@
 {
-  "name": "cogniwi",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/gerardDevelop/cogniwi.git"
-  },
-  "author": "Gerard Kerin",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/gerardDevelop/cogniwi/issues"
-  },
-  "homepage": "https://github.com/gerardDevelop/cogniwi#readme"
+    "name": "test-app",
+    "version": "0.1.0",
+    "main": "index.js",
+    "scripts": {
+        "dev": "nodemon ./index.js",
+        "start": "node ./index.js"
+    },
+    "dependencies": {
+        "express": "^4.16.3",
+        "jsonwebtoken": "^8.5.1",
+        "mongoose": "^5.4.20",
+        "uuid": "^3.3.2"
+    },
+    "devDependencies": {
+        "nodemon": "^1.17.3"
+    }
 }
